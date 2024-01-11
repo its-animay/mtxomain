@@ -9,6 +9,10 @@ import Error404 from './components/error_404';
 import './App.css';
 import Navbar from './components/navbar';
 import Profile from './components/profile';
+import Sector from './components/sectors';
+import Testonomilas from './components/testonomials';
+import Nextdevelopment from './components/nextdevelopment';
+import Whatwedo from './components/whatwedo';
 
 
 function App({ Component }) {
@@ -21,6 +25,11 @@ function App({ Component }) {
         <Route path="/" element={
           <>
             <Navbar />
+            <Nextdevelopment />
+            <Sector />
+             <Services />
+             <Whatwedo />
+            <Testonomilas />
            
             <Footer />
           </>
